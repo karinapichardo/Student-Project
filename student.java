@@ -3,8 +3,11 @@ package com.company;
 // class declaration
 public class Student {
     // instance variables
-    String name, school, state;
-    int age, graduateAge;
+    String name
+    String school
+    String state;
+    int age
+    int graduateAge;
 
     // constructor declaration of class
     public Student(String name, int age, String school, String state) {
