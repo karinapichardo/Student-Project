@@ -17,24 +17,23 @@ public class Student {
         this.state = state;
     }
 
-    // method 1
     public String getName() {
         return name;
     }
 
-    // method 2
+  
     public int getAge() {
         graduateAge = age + 4;
         System.out.println("When I graduate I'll be: " + graduateAge + " years old!");
         return age;
     }
 
-    // method 3
+    
     public String getSchool() {
         return school;
     }
 
-    // method 4
+    
     public String getState() {
         return state;
     }
